@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+	<title> Portal </title>
+	<link rel="stylesheet" href="assets/css/style.css"></link>
+	<script text="text/javascript" src="assets/js/script.js"></script>
+</head>
+
+<body>
+<div class="top">
+	<div class="insidetop">
+		<div class="tleft">
+			<ul>
+				<li> <a href="./" class="acti" >HOME</a> </li>
+				<li> <a href="about">ABOUT US</a> </li>
+				<li> <a href="partners">PARTNERS</a> </li>
+				<li> <a href="contact">CONTACT</a> </li>
+			</ul>
+		</div>
+		<div class="tright">
+			<input type="image" img src="assets/img/loup.png" border="0"  height="26" width="26" />
+			<input type="text" name="search" class="tsearch" placeholder="search..."/>
+			<a href=""><img src="assets/img/facebook.png" border="0" height="26" width="26" ></a>
+			<a href=""><img src="assets/img/twitter.png" border="0" height="26" width="26" ></a>
+			<a href=""><img src="assets/img/youtube.png" border="0" height="26" width="26" ></a>
+			<a href=""><img src="assets/img/rss.png" border="0" height="26" width="26" ></a>
+			<a href=""><img src="assets/img/googleplus.png" border="0" height="26" width="26" ></a>
+		 </div>
+	</div>
+</div>
+
+	<div class="sectop">
+		<div class="insidesectop">
+			<div class="logo">
+				<img src="assets/img/logo.png" border="0" width="230">
+			</div>
+			<div class="banner"></div>
+		</div>
+	</div>
+	<div class="menu"> 
+		<div class="insidemenu">
+			<img src="assets/img/menu.png" border="0" height="40" width="40" class="menumobile"
+			onclick="toggleMenu()" /> 
+			<ul id="menu">
+				<li> <a href="./" class="acti" > HOME </a> </li>
+
+				<li> <a href="./"  > ECONOMY </a> </li>
+				<li> 
+
+					<a href="./"  > ENTERTAINMENT </a>
+					<img src="assets/img/baixo.png" border="0" width="10"/>
+					<div class="submenu"> 
+						<a href="./"> 
+							<div class="submenuitens"> Cinema </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> Music </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> Internet </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> Radio </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> TV </div>
+						 </a>
+					</div>
+				</li>
+				<li> 
+					<a href="./"  > SPORTS </a> 
+					<img src="assets/img/baixo.png" border="0" width="10"/>
+					<div class="submenu"> <a href="./"> 
+							<div class="submenuitens"> Football </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> Basketball </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> Tenis </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> Hockey </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> Formula 1 </div>
+						 </a>
+					</div>
+				</li>
+				<li> <a href="./"  > GERAL </a> </li>
+				<li> 
+					<a href="./"  > NEWS </a> 
+					<img src="assets/img/baixo.png" border="0" width="10"/>
+					<div class="submenu"> 
+						<a href="./"> 
+							<div class="submenuitens"> Today </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> This week </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> Past 2 weeks </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> This month </div>
+						 </a>
+						 <a href="./"> 
+							<div class="submenuitens"> Past 2 months </div>
+						 </a>
+					</div>
+				</li>
+				<li> <a href="./"  > POLITICS </a> </li>
+
+				<li> <a href="./"  > VIDEOS </a> </li>
+			</ul>
+		</div> 
+	</div>
+		<div class="breaknews"> 
+			<div class="insidebreaknews"> 
+			<div class="brnewsarea">
+				<div class="brnewstitle"> BREAKING NEWS </div>
+				<div class="brnewsitself"> Black Lives Matter nao e mesmo?</div>
+			</div>
+		</div> </div>
+
+	<div class="container">
+		<div class="insidecontainer">
+			<div class="leftside">
+				<div class="slideshow" id="slideshow">
+					<div class="slidelcircles">
+							<div class="circle" onclick="mudarSlide(0)"></div>
+							<div class="circle" onclick="mudarSlide(1)"></div>
+							<div class="circle" onclick="mudarSlide(2)"></div>
+							<div class="circle" onclick="mudarSlide(3)"></div>
+						</div>
+					<div class="slideshowarea" id="slideshow">
+						<a href="https://www.google.com">
+						<div class="slide" style="background-image:url('https://www.google.com/logos/google.jpg')">
+							<div class="slideinfo">
+								<div class="slideinfotitle"> Testing title</div>
+								<div class="slideinfosubtitle"> Testing subtitle</div>
+							</div>
+						</div>
+							</a>
+						<div class="slide" style="background-image:url('https://www.google.com/logos/google.jpg')">
+							<div class="slideinfo">
+								<div class="slideinfotitle"> Testing title 2 </div>
+								<div class="slideinfosubtitle"> Testing subtitle</div>
+							</div>
+						</div>
+						<div class="slide" style="background-image:url('https://www.google.com/logos/google.jpg')">
+							<div class="slideinfo">
+								<div class="slideinfotitle"> Testing title 3 </div>
+								<div class="slideinfosubtitle"> Testing subtitle</div>
+							</div>
+						</div>
+						<div class="slide" style="background-image:url('https://www.google.com/logos/google.jpg')">
+							<div class="slideinfo">
+								<div class="slideinfotitle"> Testing title 4 </div>
+								<div class="slideinfosubtitle"> Testing subtitle</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+ 				<div class="widget">
+					<div class="widgettitle"> NEWS </div>
+					<div class="widgetcontent">
+						<div class="newsarea1">
+							<div class="newS2its bignews">
+								<div class="newS2img">
+									<img src="" border="0" height="80" width="80"/>
+								</div>
+								<div class="newS2tit"> A Random Random Random Random Random Title</div>
+								<div class="newS2info"> comments</div>
+							</div>
+						</div>
+						<div class="newsarea2">
+						 <a href="https://www.google.com/">
+								<div class="newS2its">
+									<div class="newS2img">
+										<img src="" border="0" height="80" width="80"/>
+									</div>
+									<div class="newS2tit"> A Random Title </div>
+									<div class="newS2info"> comments</div>
+								</div>
+						 </a>
+							<div class="newS2its">
+								<div class="newS2img">
+									<img src="" border="0" height="80" width="80"/>
+								</div>
+								<div class="newS2tit"> A Random Title 2 </div>
+								<div class="newS2info"> comments</div>
+							</div>
+							<div class="newS2its">
+								<div class="newS2img">
+									<img src="" border="0" height="80" width="80"/>
+								</div>
+								<div class="newS2tit"> A Random Title 3 </div>
+								<div class="newS2info"> comments</div>
+							</div>
+							<div class="newS2its">
+								<div class="newS2img">
+									<img src="" border="0" height="80" width="80"/>
+								</div>
+								<div class="newS2tit"> A Random Title 4 </div>
+								<div class="newS2info"> comments</div>
+							</div>
+						</div>
+						<div style="clear:both"></div>
+					</div>
+				</div>
+
+
+				<div class="widget">
+					<div class="widgettitle"> NEWS </div>
+					<div class="widgetcontent">
+						<div class="newsarea1">
+							<div class="newS2its bignews">
+								<div class="newS2img">
+									<img src="" border="0" height="80" width="80"/>
+								</div>
+								<div class="newS2tit"> A Random Random Random Random Random Title</div>
+								<div class="newS2info"> comments</div>
+							</div>
+						</div>
+						<div class="newsarea2">
+							<div class="newS2its">
+								<div class="newS2img">
+									<img src="" border="0" height="80" width="80"/>
+								</div>
+								<div class="newS2tit"> A Random Title </div>
+								<div class="newS2info"> comments</div>
+							</div>
+							<div class="newS2its">
+								<div class="newS2img">
+									<img src="" border="0" height="80" width="80"/>
+								</div>
+								<div class="newS2tit"> A Random Title 2 </div>
+								<div class="newS2info"> comments</div>
+							</div>
+							<div class="newS2its">
+								<div class="newS2img">
+									<img src="" border="0" height="80" width="80"/>
+								</div>
+								<div class="newS2tit"> A Random Title 3 </div>
+								<div class="newS2info"> comments</div>
+							</div>
+							<div class="newS2its">
+								<div class="newS2img">
+									<img src="" border="0" height="80" width="80"/>
+								</div>
+								<div class="newS2tit"> A Random Title 4 </div>
+								<div class="newS2info"> comments</div>
+							</div>
+						</div>
+						<div style="clear:both"></div>
+					</div>
+				</div>
+
+
+
+
+			</div>
+			<div class="rightside">
+				<div class="widget">
+					<div class="widgettitle"> SOCIAL </div>
+					<div class="widgetcontent"> 
+				<a href=""><img src="assets/img/facebook.png" border="0" height="26" width="26" ></a>
+				<a href=""><img src="assets/img/twitter.png" border="0" height="26" width="26" ></a>
+				<a href=""><img src="assets/img/youtube.png" border="0" height="26" width="26" ></a>
+				<a href=""><img src="assets/img/rss.png" border="0" height="26" width="26" ></a>
+				<a href=""><img src="assets/img/googleplus.png" border="0" height="26" width="26" ></a> </div>
+				</div>
+				<div class="widget">
+					<div class="widgettitle"> LAST NEWS </div>
+					<div class="widgetcontent">
+						<div class="newsitens">
+							<a href="./"> Donald Trump is such an asshole pau no cu 
+							desse laranjo filho da puta orange man bad. </a>
+						</div>
+						<div class="newsitens">
+							<a href="./"> Donald Trump is such an asshole pau no cu 
+							desse laranjo filho da puta orange man bad. </a>
+						</div>
+						<div class="newsitens">
+							<a href="./"> Donald Trump is such an asshole pau no cu 
+							desse laranjo filho da puta orange man bad. </a>
+						</div>
+						<div class="newsitens">
+							<a href="./"> Donald Trump is such an asshole pau no cu 
+							desse laranjo filho da puta orange man bad. </a>
+						</div>
+						<div class="newsitens">
+							<a href="./"> Donald Trump is such an asshole pau no cu 
+							desse laranjo filho da puta orange man bad. </a>
+						</div>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widgettitle"> ADVERTISMENT </div>
+					<div class="widgetcontent">
+						<img src="assets/img/banner.jpg" border="0" width="275" height="275"/>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widgettitle"> FIND US ON FACEBOOK </div>
+					<div class="widgetcontent">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=340&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="270" height="120" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		
+		
+
+
+</body>
+
+
+
+</html>
+
+
+
